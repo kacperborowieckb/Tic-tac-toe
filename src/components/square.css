@@ -1,0 +1,16 @@
+.game div {
+  font-size: 4rem;
+  transform: scale(1.03);
+  aspect-ratio: 1/1;
+  border-collapse: collapse;
+  border: 2px solid black;
+  display: grid;
+  place-content: center;
+  user-select: none;
+}
+
+@media (max-width: 500px) {
+  .game div {
+    transform: scale(1.045);
+  }
+}
